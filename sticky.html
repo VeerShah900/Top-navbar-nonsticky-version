@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top navigation bar using html and css</title>
+    <link rel="stylesheet" href="sticky.css">
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        
+        <ul>
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact Us</a></li>
+             <h3>VEER SHAH</h3><!-- logo -->
+        </ul>
+    </div>
+    <div class="change-font"> Made with ♥ by <a href="github.com/VeerShah900">Veer Shah</a> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script>
+    
+window.onscroll = function() {
+    function123()};
+
+var nav = document.getElementById("navbar");
+var sticky = nav.offsetTop;
+
+function function123() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
