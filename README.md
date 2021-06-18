@@ -1,2 +1,2 @@
 # Top-navbar-nonsticky-version
-A non sticky top navigation bar....sticky version will be posted on this repo only
+A non sticky top navigation bar....sticky version is posted on this repo only with sticky.html and sticky.css as its files.....
