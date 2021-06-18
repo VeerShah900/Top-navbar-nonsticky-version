@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    margin-top: 0px;
+}
+
+ul{
+    margin-top: 0px;
+    background-color: beige;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.226);
+    border: px solid rgba(22, 14, 14, 0.18);    color: rgb(15, 1, 1);
+    height: 70px;
+    display: flex;
+    font-size: 32px;
+     border-radius: 30px;/*Who gives border radius to ul I.... */
+}
+ul:hover{
+  background-color: black;
+  margin-top:4px;
+  box-shadow: 0 8px 32px 0 #1e1ee4e3;
+  border-radius: 0px;
+}
+li{
+    display: flex;
+    margin-left: 50px;
+    background-color: rgb(213, 231, 248);
+    height: 40px;
+    margin-top: 13px;
+}
+li:hover{
+    background-color: rgb(17, 2, 2);
+    margin-top: 16px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aliceblue;
+}
+h3{
+    color: blueviolet;
+    margin-top: 8px;
+    margin-left: 150px;
+}
+
+.change-font{ 
+    text-align: center;
+    margin-top: 300px;
+    font-size: 15px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
